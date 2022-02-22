@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-const orderSchema = new Schema({
+const cartSchema = new Schema({
     userId: {
         type: String,
         ref: "user"
@@ -15,18 +15,16 @@ const orderSchema = new Schema({
         quantity: {
             type: Number,
             required: true,
-            min: [1, 'Quantity can not be less then 1.']
+            min: [1, 'Quantity can not be less then 1.'],
+            deafult: 1
         },
         price: Number
     }],
     totalAmount: {
         type: Number,
-        required: true
-    },
-    date_added: {
-        type: Date,
-        default: Date.now
+        required: true,
+        default: 0
     }
-})
+});
 
-module.exports = mongoose.model('Order',orderSchema);
+module.exports = mongoose.model('Cart',cartSchema);
