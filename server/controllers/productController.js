@@ -160,15 +160,6 @@ const getTopProducts = asyncHandler(async (req, res) => {
   res.json(products)
 })
 
-// @desc    Get active products
-// @route   GET /api/products/active
-// @access  Public
-const getActiveProducts = asyncHandler(async (req, res) => {
-  return Product.find({}).then(result => {
-    return result;
-  })
-
-})
 
 export {
   getProducts,
@@ -178,5 +169,4 @@ export {
   updateProduct,
   createProductReview,
   getTopProducts,
-  getActiveProducts,
 }
