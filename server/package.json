@@ -5,10 +5,10 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node server/server",
-    "server": "nodemon server/server",
-    "data:import": "node server/seeder",
-    "data:destroy": "node server/server -d"
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "data:import": "node seeder.js",
+    "data:destroy": "node server -d"
   },
   "keywords": [],
   "author": "Wilfred Gitee",
