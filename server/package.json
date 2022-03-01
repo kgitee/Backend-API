@@ -5,8 +5,8 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node server",
-    "server": "nodemon server",
+    "start": "node server/server",
+    "server": "nodemon server/server",
     "data:import": "node server/seeder",
     "data:destroy": "node server/server -d"
   },
