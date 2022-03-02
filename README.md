@@ -1,19 +1,20 @@
-# capstone2
-eCommerce backend built with MongoDB, Express JS and Node JS
+# Capstone-2
+
+eCommerce backend platform built with MongoDB, Express JS and Node JS
 
 # Features
 
-    Full featured shopping cart
-    Product reviews and ratings
-    Product search feature
-    User profile with orders
-    Admin product management
-    Admin user management
-    Admin Order details page
-    Mark orders as delivered option
-    Checkout process (shipping, payment method, etc)
-    PayPal / credit card integration
-    Database seeder (products & users)
+   - Full featured shopping cart
+   - Product reviews and ratings
+   - Product search feature
+   - User profile with orders
+   - Admin product management
+   - Admin user management
+   - Admin Order details page
+   - Mark orders as delivered option
+   - Checkout process (shipping, payment method, etc)
+   - PayPal / credit card integration
+   - Database seeder (products & users)
     
 # ES Modules in Node
 
@@ -35,8 +36,6 @@ PAYPAL_CLIENT_ID = your paypal client id
 
 npm install
 
-Run
-
 # Run backend only (:5000)
 npm run server
 
@@ -48,9 +47,10 @@ You can use the following commands to seed the database with some sample users a
 npm run data:import
 
 # Destroy data
+
 npm run data:destroy
 
-Sample User Logins
+# Sample User Logins
 
 admin@example.com (Admin)
 123456
