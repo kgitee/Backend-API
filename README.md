@@ -2,7 +2,7 @@
 
 eCommerce backend platform built with MongoDB, Express JS and Node JS
 
-# Features
+**# Features**
 
    - Full featured shopping cart
    - Product reviews and ratings
@@ -16,10 +16,11 @@ eCommerce backend platform built with MongoDB, Express JS and Node JS
    - PayPal / credit card integration
    - Database seeder (products & users)
 
-# Install Dependencies (backend)
+**# Install Dependencies (backend)**
 
-npm install
+   npm install
 
-# Run backend only (:5000)
-npm run server
+**# Run backend only (:5000)**
+
+   npm run server
 
