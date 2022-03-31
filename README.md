@@ -1,4 +1,4 @@
-# Capstone-2
+# Backend API
 
 eCommerce backend platform built with MongoDB, Express JS and Node JS
 
